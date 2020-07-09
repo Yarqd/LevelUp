@@ -11,7 +11,8 @@ public class MathOperation {
         long raznost = a - b;
         long proizvedenie = a * b;
         long chasnoe = a / b;
-
+        System.out.println("a = 10, b = 20");
+        System.out.println();
         System.out.println("Сумма: " + summa);
         System.out.println("Разность: " + raznost);
         System.out.println("Произведение: " + proizvedenie);
