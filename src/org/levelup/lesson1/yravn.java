@@ -1,4 +1,4 @@
-package org.levelup.lesson11;
+package org.levelup.lesson1;
 
 public class yravn {
     public static void main(String[] args) {
