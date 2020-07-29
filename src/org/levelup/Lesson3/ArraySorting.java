@@ -2,6 +2,8 @@ package org.levelup.Lesson3;
 
 import org.levelup.Lesson3.Methods.BubleSort;
 
+import java.util.Arrays;
+
 
 class ArraySorting {
     public static void main(String[] args) {
@@ -10,6 +12,8 @@ class ArraySorting {
 
         BubleSort a = new BubleSort();
 
-        System.out.println("Массив :" + a.bublesort(arr));
+        int[] f = a.bublesort(arr);
+
+        System.out.println(Arrays.toString(f));
     }
 }
